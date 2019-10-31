@@ -131,13 +131,12 @@ div.main{
 	text-align: center;
 }
 
-h2.button{
+button{
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 15px;
 	border: 1px solid black;
-	padding: 8px;
-	display: inline-block;
-	width: 70%;
+	width: 50%;
+	background: white;
 }
 img.matrix{
 	width: 48%;
