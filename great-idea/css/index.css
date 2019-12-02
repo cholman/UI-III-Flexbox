@@ -63,4 +63,176 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 15px;
+	font-size: 60px;
+}
+
+/* Your code starts here! */
+
+body{
+	margin: 0px 5%;
+}
+
+/***************************** header *****************************/
+
+header{
+	min-width: 600px;
+	/*border: 1px solid pink;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0px;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-right: 5%;
+}
+
+nav a{
+	text-decoration: none;
+	color: lightgray;
+	border: gray;
+}
+
+img.logo{
+	width: 183px;
+	height: 36px;
+	/*border: 1px solid green;*/
+}
+/******************************** main ***********************************/
+
+
+section{
+	min-width: 600px;
+	display: flex;
+	justify-content: space-between;
+	/*border: 1px solid red;*/
+	align-items: center;
+}
+section.main{
+	padding: 5% 0px;
+	border-bottom: 1px solid black;
+}
+div.main{
+	text-align: center;
+}
+
+button{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 15px;
+	border: 1px solid black;
+	width: 50%;
+	background: white;
+}
+img.matrix{
+	width: 48%;
+}
+
+img.middle-img{
+	min-width: 600px;
+}
+
+/**************************** about *************************/
+
+h3{
+	font-size: 20px;
+}
+
+section.about{
+	margin: 5% 0px;
+}
+section.vision{
+	margin: 5% 0px;
+	border-bottom: 1px black solid;
+	padding-bottom: 3%;
+}
+
+img{
+	width: 100%;
+}
+
+p{
+	margin-right: 5%;
+	margin-bottom: 5%;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+/******************** services **********************/
+h2{
+	font-size: 26px;
+}
+
+section.services{
+	display: block;
+	border-bottom: 1px solid black;
+	margin: 3% 0px;
+}
+
+section.grid{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	
+}
+div.boxes{
+	border: 1px solid black;
+	background: #F4F3F4;
+	padding: 2%;
+	margin: 2% 0px;
+	width: 48%;
+}
+
+p.learn{
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	width: 150px;
+	height: 40px;
+}
+section.facts{
+	margin: 5% 0px;
+	padding: 5% 0px;
+	border-top: 2px solid black;
+	
+}
+ul{
+	list-style-type: square;
+	margin: 2% 5%;
+}
+li{
+	margin: 5%;
+}
+
+
+/****************** footer *****************/
+.copyright{
+	text-align: center;
+}
+address{
+	display: block;
+	width: 150px;
+}
+p.address{
+	margin: 10% 0;
+}
+footer{
+	margin-bottom: 10%;
+}
+
+
+
